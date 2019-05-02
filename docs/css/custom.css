@@ -1,0 +1,130 @@
+/* general */
+.row{
+  margin: 20px auto;
+}
+
+
+/* header navigation style */
+
+/* navbar background color */
+.navbar {
+  background-color: rgb(40, 40, 40);
+  border-color: rgb(40, 40, 40);
+}
+/* navbar text color */
+.navbar-nav > li > a {
+  color: #ffffff!important;
+}
+
+.navbar-nav > li > a :visited{
+  color: #ffffff;
+}
+/* navbar text color when hover,focus */
+.navbar-nav > li > a:hover {
+  color: rgb(140, 140, 140)!important;
+  background-color: transparent;
+}
+
+/* navbar brand name */
+.navbar-brand a{
+  color: #ffffff !important;
+}
+
+/* navbar brand name when hover */
+.navbar-brand a:hover{
+  color: rgb(140, 140, 140) !important;
+}
+
+
+
+/* top page */
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+#top-page{
+    margin: 0px;
+    padding: 0px;
+    height: 800px;
+    width: 100%;
+    background: black url("../images/background.jpg") no-repeat fixed center;
+}
+.title-text{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+}
+.title-text h2{
+    font-size: 4em;
+}
+.title-text p{
+    font-size: 1.5em;
+}
+
+/* ico */
+#buyToken{
+    width: 400px;
+    margin: 30px auto;
+}
+
+#showToken{
+    width: 400px;
+    margin: 30px auto;
+}
+
+#showAmountToken{
+    font-size: 28px;
+    text-align: center;
+}
+
+
+table tr td{
+    border: 1px solid black;
+    width: 150px;
+    font-size: 1.2em;
+}
+
+#currentFund{
+    font-size: 1.2em;
+}
+
+#weiRaised{
+    width: 160px;
+    padding: 5px;
+    background-color: #EEE;
+    color: rgb(63, 122, 255);
+    text-align: right;
+}
+
+#getRefund{
+
+    font-size: 1.2em;
+}
+
+#token{
+    width: 160px;
+    padding: 5px;
+    background-color: #EEE;
+    color: rgb(63, 122, 255);
+    text-align: right;
+}
+#claimRefund button{
+    width: 160px;
+}
+
+
+/* usage */
+#usage{
+    width: 100%;
+    background: rgb(220, 220, 220);
+    margin-top: 35px;
+}
+.usageList{
+    width: 700px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
